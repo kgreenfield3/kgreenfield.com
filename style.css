@@ -1,0 +1,334 @@
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #3d3536;
+  background-color: white;
+}
+
+h1, h3 {
+  font-size: 100%;
+  font-family: "Fjalla One", sans-serif;
+}
+
+h2 {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+}
+a {
+  color: #a6989a;
+}
+/* --------------------------------
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+
+}
+
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+  position: absolute;
+
+}
+
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  align-content: center;
+}
+
+
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 45%;
+  max-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+.cd-fixed-bg h1 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #2F3334;
+  font-size: calc(.25em + 6.75vmin);
+}
+
+.cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 70%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 2.75rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #2F3334;
+  font-size: calc(.25em + 4.75vmin);
+}
+
+.cd-fixed-bg h3 {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 50%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+    font-size: calc(.25em + 4.75vmin);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #2F3334;
+}
+.cd-bg-4 .icons{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+i {
+    color: #2F3334;
+    font-size: 100px;
+}
+
+.cd-fixed-bg.cd-bg-1,
+.cd-fixed-bg.cd-bg-2,
+.cd-fixed-bg.cd-bg-3, .cd-fixed-bg.cd-bg-4 {
+  background-image: url("leaves_4.jpeg");
+  background-color: #2F3334;
+  background-blend-mode: screen;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+  .cd-fixed-bg h2 {
+    top: 55%;
+}
+}
+
+@media only screen and (min-width: 850px) {
+  .cd-container {
+    width: 90%;
+  }
+}
+
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 75%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cd-scrolling-bg.cd-color-1,
+.cd-scrolling-bg.cd-color-2,
+.cd-scrolling-bg.cd-color-3{
+  background-color: #2F3334;
+  color: #D0C4B6;
+}
+
+@media only screen and (min-width: 480px) {
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+
+}
+
+
+
+--- cases ---
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-top:
+
+}
+
+
+@media screen and (min-width: 850px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column {
+    flex: 1;
+  }
+  .column img {
+    min-width: 200px;
+  }
+}
+/* Style */
+
+
+
+.column {
+  padding: 15px;
+  border: 1px solid #666;
+  margin: 5px;
+  background: #343436;
+  top:60%;
+  left:50%;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+
+.column img {
+  width: 100%;
+  height: 80%;
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  opacity: 0.6;
+}
+
+.column img:hover {
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+}
+
+.column h2, h4 {
+    margin: 5;
+    text-transform: uppercase;
+  }
+  .column h2 {
+    font-weight: 400;
+    color: #DCCEC1;
+  }
+  .column h4 {
+    display: block;
+    font-weight: 700;
+    background-color: #DCCEC1;
+    padding: 5px 10px;
+    color: #000000;
+  }
+}
+
+#CD2_1 {
+  justify-content: flex-start;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.toolkit, .software {
+  border: 1px solid red;
+  width: 50%;
+}
+
+.cd-container h1 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #DCCEC1;
+  font-size: calc(.25em + 4.75vmin);
+  margin-top: -10px;
+}
+
+.section_title {
+    top: -10%;
+    left: 0%;
+    height: 30px;
+    text-align: center;
+}

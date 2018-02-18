@@ -10,19 +10,13 @@ html * {
   box-sizing: border-box;
 }
 
-body {
-  font-size: 100%;
-  font-family: "Roboto", sans-serif;
-  color: #3d3536;
-  background-color: white;
-}
 
 h1, h3 {
   font-size: 100%;
   font-family: "Fjalla One", sans-serif;
 }
 
-h2 {
+h2, p, ul {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
 }
@@ -34,6 +28,7 @@ body, html {
 a {
   color: #a6989a;
 }
+
 /* --------------------------------
 
 Modules - reusable parts of our design
@@ -86,12 +81,12 @@ Modules - reusable parts of our design
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 80%;
+  width: 98%;
   max-width: 1170px;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #2F3334;
-  font-size: calc(.25em + 6.75vmin);
+  font-size: calc(3vw + 36px);
 }
 
 .cd-fixed-bg h2 {
@@ -108,11 +103,9 @@ Modules - reusable parts of our design
   width: 70%;
   max-width: 1170px;
   text-align: center;
-  font-size: 30px;
-  font-size: 2.75rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #2F3334;
-  font-size: calc(.25em + 4.75vmin);
+  font-size: calc(1vw + 24px);
 }
 
 .cd-fixed-bg h3 {
@@ -126,11 +119,11 @@ Modules - reusable parts of our design
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 50%;
+  width: 55%;
   max-width: 1170px;
   text-align: center;
   font-size: 30px;
-    font-size: calc(.25em + 4.75vmin);
+    font-size: calc(1.75vw + 18px);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #2F3334;
 }
@@ -165,7 +158,7 @@ i {
 
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
   .cd-fixed-bg {
     background-attachment: fixed;
   }
@@ -174,7 +167,7 @@ i {
 }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 768px) {
   .cd-container {
     width: 90%;
   }
@@ -198,11 +191,9 @@ i {
   color: #D0C4B6;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
     padding: 8em 0;
-    font-size: 20px;
-    font-size: 1.25rem;
     line-height: 2;
     font-weight: 300;
   }
@@ -222,7 +213,7 @@ i {
 }
 
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 768px) {
   .row {
     display: flex;
     flex-direction: row;
@@ -264,14 +255,14 @@ i {
   max-width: 100%;
   backface-visibility: hidden;
   vertical-align: top;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .column img:hover {
   zoom: 1;
   filter: alpha(opacity=35);
   -webkit-opacity: 0.35;
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 .column h2, h4 {
@@ -322,7 +313,7 @@ i {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #DCCEC1;
-  font-size: calc(.25em + 4.75vmin);
+  font-size: calc(1vw + 28px);
   margin-top: -10px;
 }
 
@@ -331,4 +322,98 @@ i {
     left: 0%;
     height: 30px;
     text-align: center;
+}
+
+#headshot {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #D0C4B6;
+  filter: sepia(40%);
+  width: 300px;
+}
+
+#top, #bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#top .col {
+  width: 50%:
+  flex: 1;
+  margin: auto;
+}
+#bottom .col {
+  width: 20vw;
+  min-width: 250px;
+  height: 20vw;
+  min-height: 250px;
+  margin: auto;
+}
+#bottom img {
+  width: 100%;
+  height: 80%;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 5px;
+}
+
+.text-container .text h2 {
+  text-align: center;
+  font-size: calc(1vw + 12px);
+  margin: 5px;
+  font-weight: bold;
+}
+
+.text-header h2 {
+  text-align: center;
+  font-size: calc(1vw + 14px);
+  margin: 5px;
+  font-weight: bold;
+}
+
+.text-container .text ul {
+font-size:calc(.75vw + 10px);
+line-height: normal;
+}
+.text-header  {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size:calc(.75vw + 14px);
+  line-height: normal;
+  width: 85%;
+  margin: auto;
+}
+#child-2 {
+  width: 90%;
+  margin-right: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+  #top {
+    flex-direction: column;
+  }
+    .col, #child-1, #child-2 {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+    .col img {
+      margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+    }
+
+}
+#bottom {
+  justify-content: center;
+}
+#bottom h1 {
+  text-align: center;
+  font-size: calc(1vw + 16px);
 }

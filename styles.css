@@ -215,5 +215,9 @@ footer {
   .case_item p {
     visibility: hidden;
   }
+  .case_item h4 {
+    margin-top: 12px;
+  }
+
 
 }

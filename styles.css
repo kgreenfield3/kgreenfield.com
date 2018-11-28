@@ -208,5 +208,8 @@ footer {
   #resume_page {
     margin-top: -35px;
   }
+  .case_item p {
+    visibility: hidden;
+  }
 
 }

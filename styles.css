@@ -218,7 +218,8 @@ footer {
     visibility: hidden;
   }
   .case_item h4 {
-    margin-top: 12px;
+    margin: auto 0;
+  }
   }
 
 

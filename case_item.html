@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- JavaScript -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!--<script src="styles.css"></script> -->
+<link rel="stylesheet" href="styles.css">
+<!-- Fonts from Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Poiret+One|Raleway|Nothing+You+Could+Do|Lora|Quicksand:light|Lato:300,400,700,900|Open+Sans+Condensed' rel='stylesheet' type='text/css'>
+<!-- Font Awesome to get icons -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- Instagram pics for my other interests -->
+<script src="//lightwidget.com/widgets/lightwidget.js"></script>
+<title>Kyrsten Greenfield</title>
+</head>
+<body>
+
+<div class="header" id="myHeader">
+  <div class="header_wrapper" onCLick = "location.href = 'index.html'">
+    <div class="header_one"><h1>Kyrsten Greenfield</h1>
+    <h4><center>UX Researcher at SmartAsset</center></h4></div>
+    <div class="header_two">
+      <div class= "topnav" id = "myTopnav">
+        <a id = "case_studies" onClick = "scrollToCaseStudies()"><h2>Case Studies</h2></a>
+        <a href="Kyrsten_Greenfield_Resume.pdf" id = "resume_page" target="_blank"><h2>Resume</h2></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <div class = "studies">
+    <div class = "about" id ="about" style ="clear:both;">
+    </br></br>
+      <center>Case studies coming soon! </br></br> If you can't wait, feel free to
+      email me or hit me up on Instagram.</center>
+    </div>
+
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+</script>
+<footer>
+	<center>
+    <br>
+	<a href="mailto:kyrstengreenfield@hotmail.com?subject=Hey, I saw your website!"target="_blank"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a>
+	<a href="https://github.com/kgreenfield3" target="_blank"><i class="fa fa-github-alt fa-fw fa-2x"></i></a>
+	<a href="https://www.instagram.com/kgreenfield7"target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+  <a href="https://www.linkedin.com/in/kgreenfield3/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <center>
+</footer>
+</body>
+</html>

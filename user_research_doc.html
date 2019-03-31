@@ -25,64 +25,55 @@
 </head>
 <body>
 
-<div class="header" id="myHeader">
-  <div class="header_wrapper" onCLick = "location.href = 'index.html'">
-    <div class="header_one"><h1>Kyrsten Greenfield</h1>
-    <h4><center>UX Researcher at SmartAsset</center></h4></div>
-    <div class="header_two">
-      <div class= "topnav" id = "myTopnav">
-        <a id = "case_studies" onClick = "scrollToCaseStudies()"><h2>Case Studies</h2></a>
-        <a href="Kyrsten_Greenfield_Resume.pdf" id = "resume_page" target="_blank"><h2>Resume</h2></a>
+  <div class="header" id="myHeader">
+    <div class="header_wrapper" onclick = "location.href = 'index.html'">
+      <div class="header_one"><h1>Kyrsten Greenfield</h1>
+      <h4><center>UX Researcher based in NYC</center></h4></div>
+      <div class="header_two">
+        <div class= "topnav" id = "myTopnav">
+          <a> <h2><i class="fa fa-circle" ></i></h2> </a>
+          <a id = "about_me" onclick = "location.href = 'index.html'"><h2>Home</h2></a>
+          <a> <h2><i class="fa fa-circle" ></i></h2> </a>
+          <a id = "case_studies" href="https://www.instagram.com/kgreenfield7" target="_blank"><h2>Instagram</h2></a>
+          <a> <h2><i class="fa fa-circle" ></i></h2> </a>
+          <a id = "case_studies" href ="mailto:kyrstengreenfield@hotmail.com" target="_blank"><h2>Contact</h2></a>
+          <a> <h2><i class="fa fa-circle" ></i></h2> </a>
+          <a href="Kyrsten_Greenfield_Resume.pdf" id = "resume_page" target="_blank"><h2>Resume</h2></a>
+          <a> <h2><i class="fa fa-circle" ></i></h2> </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 <div class="content">
   <div class = "studies">
     <div class = "about" id ="about" style ="clear:both;">
-      <br>
-      <h2><b>User Research Document</b></h2>
-      The User Research document was designed by me to improve early buy-in when it came to UX research and to ensure all stakeholders were all in agreement during the design and testing phases.
+      <h2><b>User Research Doc</b></h2>
+      <div class="screenshots" id="user_research_doc"><img src = "user_research_doc.png"></div><br>
+      <b>Author & Stakeholders</b><br>
+      Kyrsten G. (UX Researcher)<br><br>
+      <b>Summary</b><br>
+      The User Research document was designed by me to improve early buy-in when it came to UX research and to ensure all stakeholders were in agreement during the design and testing phases.
+      Inspired by an initial misunderstanding around testing and a general lack of documentation, I developed a template that focused heavily on the project goals, past knowledge / research, competitors, and screeners, etc. The template would be used at the beginning of every project to guarantee UX / Product were in agreement before any testing would take place.
+      Extending the content to include business goals allowed the Design / UX team to better understand the project as a whole, making for a more successful design.
       <br><br>
-      <ul>
-        <li><b>Goal:</b> Improve early buy-in from stakeholders and highlight UX procedures at SmartAsset.</li>
-        <li><b>Methods:</b> Inspired by an initial misunderstanding around testing, I developed a template that focused heavily on the project goals, past knowledge / research, competitors, and screeners, etc. The template would be used at the beginning of every project to guarantee UX / Product were in agreement before any testing would take place.</li>
-        <li><b>Insights:</b> The inclusion of business goals allowed the Design / UX team to better understand the project as a whole, making for a more successful design.</li>
-        <li><b>Results:</b> Earlier buy-in of the research plan from all stakeholders. This resulted in more productive discussions with management around the findings, insights, and recommendations.</li>
-      </ul>
+      Since its development, the document has been used in every recent project resulting in more productive discussions with management around the findings, insights, and recommendations. The documentation has also been used as a reference in other similar projects.
+      <br><br>
+      <b> Next Steps </b><br>
+      The Design / UX team will continue to build out the document to include more priority data points to create a comprehensive report.
       <br><br>
       <center> Want to learn more about this project? <a href="mailto:kyrstengreenfield@hotmail.com?subject=Let's get coffee"target="_blank">Email me</a>, I’m happy to discuss it over coffee. </center>
-
     </div>
 
   </div>
 </div>
 
 <script>
-window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
 
 
 </script>
 <footer>
-	<center>
-    <br>
-	<a href="mailto:kyrstengreenfield@hotmail.com?subject=Hey, I saw your website!"target="_blank"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a>
-	<a href="https://github.com/kgreenfield3" target="_blank"><i class="fa fa-github-alt fa-fw fa-2x"></i></a>
-	<a href="https://www.instagram.com/kgreenfield7"target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
-  <a href="https://www.linkedin.com/in/kgreenfield3/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
-  <center>
 </footer>
 </body>
 </html>

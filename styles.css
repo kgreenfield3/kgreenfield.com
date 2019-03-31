@@ -1,10 +1,13 @@
 /* Body + Headings + Fonts */
-body {
+body, footer {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: regular;
   font-size: 16px;
   color: #00332b;
+}
+hr {
+  width: 85%;
 }
 
 h1 {
@@ -13,6 +16,7 @@ h1 {
 	text-align: center;
 	font-size: 3.15em;
   color: #00332b;
+  padding-top: 10px;
 }
 
 h2 {
@@ -25,7 +29,7 @@ h2 {
 
 h3 {
 	font-family: 'Lato', sans-serif;
-	font-size: 2em;
+	font-size: 1.2em;
   color: #00332b;
 }
 
@@ -42,6 +46,8 @@ h4 {
   background: #ffffff;
   padding: 30px;
   text-align: center;
+  width: 85%;
+
 }
 
 .header {
@@ -49,17 +55,16 @@ h4 {
   color: #00332b;
   padding-left: 30px;
   padding-right: 30px;
+  width: 85%;
+  margin: 0 auto;
 }
 
-.header_one {
-  float: left;
-	width: 520px;
-}
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  float: none;
 }
 
 .sticky + .content {
@@ -69,58 +74,55 @@ h4 {
 .topnav {
   overflow: hidden;
   list-style: none;
-  margin: 0;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
+  -webkit-flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+
 }
 
-.topnav a, .topnav h2 {
-  float: right;
+.topnav a, .topnav h2, .topnav i {
+  float: none;
   display: block;
   text-align: center;
-  padding: 8px 8px;
+  padding: 3px 3px;
   text-decoration: none;
-  font-size: 1.2em;
-	color: #00332b; /*#3d3d3d*/
+  font-size: 1em;
+	color: #0000EE;
+}
+.topnav i {
+  font-size: .25em;
+  color: #00332b;
+  padding-top: 7px;
 }
 
 .topnav a:hover {
-  color: #00332b;
+  color: #0000EE;
+  text-decoration: underline;
+  text-decoration-color: #0000EE;
 }
 
 .topnav a.active {
-  color: #00332b;
+  color: #0000EE;
+  text-decoration: underline;
+  text-decoration-color: #0000EE;
 }
 
-#case_studies:hover, #CS1:hover, #CS2:hover, #CS3:hover, #CS4:hover,
-#header_one:hover, #resume_page:hover, .header_one:hover
- {
-  cursor: pointer;
+#headshot {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin: 15px;
+  margin-top: -10px;
 }
 
-
-/* Rest of Content */
-.content {
-  padding: 16px;
-
-}
-.studies {
-  padding-left: 32px;
-  padding-right: 32px;
-  width: 100%;
-}
-.title_header, #project_header {
-  border-bottom: 1px solid #00332b;
-}
 
 .case_container {
-  padding-left: 16vw;
-  padding-right: 16vw;
   list-style: none;
   display: -webkit-box;
   display: -moz-box;
@@ -128,29 +130,152 @@ h4 {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content: space-between;
+  flex-wrap: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .case_item {
   background: #00332b;
-  padding: 15px;
-  height: 25vh;
-  margin-top: 1.5vh;
-  padding-top: 9vh;
-  font-weight:lighter;
+  height: 300px;
+  font-weight: lighter;
   color: white;
   font-size: 1em;
   text-align: center;
+  position: relative;
+  align-content: center;
+  width: 48%;
+  margin: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .case_item h4 {
  text-transform: uppercase;
- margin-top: 3px;
+ margin-top: 12px;
 }
 
-#CS1, #CS2, #CS3, #CS4 {
-  width: 49%;
+.header_txt {
+  background: rgba(0, 51, 43, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
+
+#case_studies:hover, #CS1:hover, #CS2:hover, #CS3:hover, #CS4:hover,
+#header_one:hover, #resume_page:hover, .header_one:hover, #about_me:hover
+ {
+  cursor: pointer;
+}
+
+#CS1 {
+  background-image: url("couple-home-house-1288482.jpg");
+  background-size: cover;
+}
+#CS2 {
+  background-image: url("advice-advise-advisor-7096.jpg");
+  background-size: cover;
+}
+#CS3 {
+  background-image: url("action-plan-brainstorming-complex-212286.jpg");
+  background-size: cover;
+}
+#CS4 {
+  background-image: url("cash-cent-child-1246954.jpg");
+  background-size: cover;
+}
+
+.screenshots {
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  height: inherit;
+  position: relative;
+}
+
+#mortgage_calc {
+    padding-top: 56.94%;
+}
+
+#mortgage_persona {
+  padding-top: 75.42%;
+}
+
+#mortgage_view {
+  padding-top: 41.68%;
+}
+
+#mortgage_redesign, #ux_course, #user_research_doc, #cd_rates {
+  padding-top: 56.25%;
+}
+.screenshots img {
+  width: inherit;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+}
+
+
+/* Rest of Content */
+.content {
+  padding: 16px;
+  width: 85%;
+  margin: 0 auto;
+}
+.about h2 {
+  margin-top: -1px;
+}
+.studies {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  }
+}
+
+
+.studies_item {
+  font-weight:lighter;
+  font-size: 1em;
+  text-align: center;
+  padding: 15px;
+}
+
+
+img {
+  width: 200px;
+  align-content: center;
+  /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+*/
+}
+}
+
+#about {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin: 15px;
+  font-weight: normal;
+}
+
+
+
 
 .about {
   width: 65%;
@@ -160,32 +285,48 @@ h4 {
 
 /* Footer */
 footer {
-	font-size: 18px;
-	margin-bottom: 10px;
+  width: 85%;
+  padding: 18px;
+  margin: 0 auto;
 }
 
 .fa, .fab {
 	color: #00332b;
 }
 
+
+
 /* On Mobile */
-@media screen and (max-width: 885px) {
+@media screen and (max-width: 800px) {
+  hr {
+    width: 100%;
+  }
    .header_one, .header_two, .interests_details {
     float: none;
     width: auto;
   }
 
+.header, .content {
+  width: 100%;
+}
+
   #case_studies, #resume_page {
     align-items: center;
   }
-  .about {
-    width: 90%;
-  }
-  .topnav {
-    display: none;
-  }
+
+
   #CS1, #CS2, #CS3, #CS4 {
     width: 100%;
+    height: 300px;
+  }
+
+  #headshot {
+    width: 85%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  #about {
+    width: 85%;
   }
   .header_one, .header_two, .me_img, .intro {
     float: none;
@@ -193,11 +334,23 @@ footer {
   }
   .case_item h4 {
    text-transform: uppercase;
-   margin-top: -3px;
+   opacity: 1;
   }
-  .case_container {
+
+  .case_container, .studies {
     width: 100%;
     padding: 0px;
+  }
+  .studies {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
   }
 
 }
@@ -220,6 +373,18 @@ footer {
   .case_item h4 {
     margin: auto 0;
   }
+}
 
 
+.title_header h3 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #00332b;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+.title_header h3 span {
+    background:#fff;
+    padding:0 10px;
 }

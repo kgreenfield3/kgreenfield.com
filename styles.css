@@ -355,7 +355,7 @@ footer {
 
 }
 
-@media screen and (max-width: 334px) {
+@media screen and (max-width: 375px) {
    .header_one, .header_two, .interests_details {
     float: none;
     width: auto;
@@ -372,6 +372,14 @@ footer {
   }
   .case_item h4 {
     margin: auto 0;
+  }
+  .topnav {
+    -webkit-flex-flow: row-wrap;
+    justify-content: center;
+    visibility: hidden;
+  }
+  .content {
+    margin-top: -5vh;
   }
 }
 

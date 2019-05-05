@@ -210,9 +210,14 @@ h4 {
   padding-top: 41.68%;
 }
 
-#mortgage_redesign, #ux_course, #user_research_doc, #cd_rates {
+#ux_course, #user_research_doc, #cd_rates {
   padding-top: 56.25%;
 }
+
+#mortgage_redesign {
+  padding-top: 47.27%;
+}
+
 .screenshots img {
   width: inherit;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);

@@ -321,5 +321,7 @@ hr {
   }
   .topnav {
     margin: 0 auto;
+    float: center;
+    margin: 20px;
 
 }

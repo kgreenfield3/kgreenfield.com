@@ -319,10 +319,9 @@ hr {
   .about_info, .resume_body, .contact_info {
     width: 90%;
   }
+  
   .topnav {
     margin: 0 auto;
     float: center;
     margin: 20px;
-    border: 1px black solid;
-
 }

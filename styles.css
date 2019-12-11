@@ -137,7 +137,7 @@ hr {
   font-family: 'Heebo', sans-serif;
   font-weight: 100;
   text-align: center;
-  visibility: hidden;
+  visibility: visible;
   padding: 15px;
 }
 

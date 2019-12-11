@@ -294,17 +294,13 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  .work_container, .nav_container, .contact_info, .mc_intro  {
+  .work_container, .nav_container, .about_container, .contact_info, .mc_intro  {
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-  }
-  .about_container  {
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-  }
+  } 
+  
   .about_info {
      justify-content: left;
     text-align: left;

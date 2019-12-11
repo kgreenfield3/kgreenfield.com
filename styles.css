@@ -301,8 +301,8 @@ hr {
     margin: 0 auto;
   } 
   
-  .about_info {
-     justify-content: left;
+  .about_info_details {
+    justify-content: left;
     text-align: left;
   }
   

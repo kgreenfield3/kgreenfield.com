@@ -305,6 +305,11 @@ hr {
     justify-content: left;
     text-align: left;
   }
+  .about_info {
+     justify-content: left;
+    text-align: left;
+  }
+  
   .dot {
     display: none;
   }

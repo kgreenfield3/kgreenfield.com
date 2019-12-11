@@ -132,13 +132,17 @@ hr {
   background-image: url("falc_ads.png");
   background-size: cover;
 }
-.work_title {
+  .work_title {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  background: black;
   font-size: calc(36px + .4vw);
   font-family: 'Heebo', sans-serif;
   font-weight: 100;
   text-align: center;
   padding: 15px;
-  opacity: 1;
+   opacity: 1;
   color: white;
   background: black;
 }

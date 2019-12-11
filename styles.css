@@ -137,16 +137,12 @@ hr {
   font-family: 'Heebo', sans-serif;
   font-weight: 100;
   text-align: center;
-  visibility: visible;
   padding: 15px;
-}
-
-.work:hover .work_title {
-  visibility: visible;
   opacity: 1;
   color: white;
   background: black;
 }
+
 
 .work:hover, .dot:hover, .fa-instagram:hover, .fa-github-square:hover {
     cursor: pointer;

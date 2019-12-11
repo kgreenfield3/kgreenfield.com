@@ -224,6 +224,8 @@ hr {
   margin-right: 45px;
   margin-top: 45px;
   font-size: calc(21px + .4vw);
+  justify-content: left;
+  text-align: left;
 }
 
 .intro h2 {

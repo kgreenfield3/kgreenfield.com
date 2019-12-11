@@ -309,22 +309,31 @@ hr {
   .dot {
     display: none;
   }
+  
   .headshot {
     margin: 0px;
     width: 90%;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    margin: 0 autol
   }
   .work {
     width: 95%;
     margin-bottom: 25px;
   }
+  
   mark {
     width: 80%;
     margin-bottom: 5px;
   }
+  
   .number, .email{
     margin: 0 auto;
     text-align: center;
   }
+  
   .about_info, .resume_body, .contact_info {
     width: 90%;
   }

@@ -252,6 +252,7 @@ hr {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 /*MORTGAGE CALC*/
 .content {
   width: 90%;
@@ -314,10 +315,12 @@ hr {
     margin: 0px;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
+    text-align: center;
   }
   
   .intro {
-    margin: 0 autol
+    margin: 0 auto;
   }
   .work {
     width: 95%;

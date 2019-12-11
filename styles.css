@@ -129,7 +129,7 @@ hr {
   padding: 50px;
 }
 #falc_ads {
-  background-image: url("falc_ads.png");
+  background-image: url("Ads.png");
   background-size: cover;
 }
 .work_title {
@@ -224,10 +224,8 @@ hr {
   margin-right: 45px;
   margin-top: 45px;
   font-size: calc(21px + .4vw);
-  justify-content: left;
-  text-align: left;
+  align-items: center;
 }
-
 .intro h2 {
   margin-bottom: 25px;
 }
@@ -252,7 +250,6 @@ hr {
   padding-left: 0px;
   padding-right: 0px;
 }
-
 /*MORTGAGE CALC*/
 .content {
   width: 90%;
@@ -299,44 +296,26 @@ hr {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
-  } 
-  
-  .about_info_details {
-    justify-content: left;
-    text-align: left;
   }
-  
   .dot {
     display: none;
   }
-  
   .headshot {
     margin: 0px;
     width: 90%;
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .intro {
-    margin: 0 auto;
   }
   .work {
     width: 95%;
     margin-bottom: 25px;
   }
-  
   mark {
     width: 80%;
     margin-bottom: 5px;
   }
-  
   .number, .email{
     margin: 0 auto;
     text-align: center;
   }
-  
   .about_info, .resume_body, .contact_info {
     width: 90%;
   }

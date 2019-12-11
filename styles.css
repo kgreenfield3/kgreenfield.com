@@ -292,10 +292,15 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  .work_container, .nav_container, .about_container, .contact_info, .mc_intro  {
+  .work_container, .nav_container, .contact_info, .mc_intro  {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+  .about_container  {
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
   }
   .dot {
     display: none;

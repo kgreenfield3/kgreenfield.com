@@ -1,0 +1,323 @@
+/*TAGS*/
+
+hr {
+  font-size: calc(18px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+p, ul, body {
+  font-size: calc(16px + .4vw);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+i {
+  font-size: calc(16px + .4vw);
+  font-weight: bolder;
+}
+
+a {
+  font-size: calc(18px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h2 {
+  font-size: calc(21px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+}
+h3 {
+  font-size: calc(18px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: calc(18px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+mark {
+  color: white;
+  background: black;
+  padding: 15px;
+  font-size: calc(14px + .4vw);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin-top: -3px;
+}
+
+/*NAVIGATION*/
+
+.nav_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.topnav {
+  float: right;
+  margin: 20px;
+  margin-top: 45px;
+  margin-right: 45px;
+
+}
+
+.dot {
+  width: 75px;
+  height: 75px;
+  font-size: 32px;
+  background-color: black;
+  float: left;
+  margin: 20px;
+  margin-left: 45px;
+  margin-top: 45px;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-jack-o-lantern  {
+  color: white;
+}
+
+/*TITLE*/
+
+.title {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/*WORK*/
+.work_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 45px;
+  font-size: calc(21px + .4vw);
+  align-items: center;
+}
+
+.work {
+  width: 33%;
+  height: 300px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mortgage_calc {
+  background-image: url("mockDrop_iPhone_5.jpg");
+  background-size: cover;
+}
+#lms {
+  background-image: url("mockDrop_Workin_hard.jpg");
+  background-size: cover;
+  padding: 50px;
+}
+#falc_ads {
+  background-image: url("Ads.png");
+  background-size: cover;
+}
+.work_title {
+  font-size: calc(36px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  visibility: hidden;
+  padding: 15px;
+}
+
+.work:hover .work_title {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  background: black;
+}
+
+.work:hover, .dot:hover, .fa-instagram:hover, .fa-github-square:hover {
+    cursor: pointer;
+}
+
+
+/*RESUME*/
+.resume_body {
+  width: 65%;
+  margin: 0 auto;
+}
+.resume_header {
+  font-size: calc(28px + .4vw);
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.resume_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: calc(18px + .4vw);
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 65%;
+  margin: 0 auto;
+  font-size: calc(18px + .4vw);
+  font-family: 'Heebo', sans-serif;
+}
+
+.employment_history, .education {
+  display: flex;
+  flex-direction: column;
+}
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin: 0 auto;
+}
+.website, .number, .email {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(14px + .4vw);
+}
+.date, .degree {
+  float: right;
+}
+.company_name, .school_name {
+  float: left;
+}
+
+.fa-circle {
+  font-size: 5px;
+  margin: 0 auto;
+}
+/*ABOUT*/
+
+#about_me {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.about_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 45px;
+  font-size: calc(21px + .4vw);
+  align-items: center;
+}
+.intro h2 {
+  margin-bottom: 25px;
+}
+
+
+.headshot {
+  height: 400px;
+  width: 400px;
+  background-image: url("headshot.JPG");
+  background-size: cover;
+  background-position: center;
+  margin: 25px;
+}
+
+
+.about_info {
+  width: 65%;
+}
+
+.about_info, .about_info a, .contact_info a, .about_mc a {
+  font-size: calc(16px + .4vw);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*MORTGAGE CALC*/
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.screenshots {
+  padding-top: 56.94%;
+  background-image: url("mortgage_calc.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+}
+.redesign_mc {
+  width: 65%;
+  margin: 0 auto;
+}
+
+
+/*FOOTER*/
+.footer {
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fa-instagram, .fa-github-square {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: calc(36px + .8vw);
+  text-align: center;
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 1028px) {
+  .details, .education_details {
+    display: flex;
+    flex-direction: column;
+  }
+  .work_container, .nav_container, .about_container, .contact_info, .mc_intro  {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .dot {
+    display: none;
+  }
+  .headshot {
+    margin: 0px;
+    width: 90%;
+  }
+  .work {
+    width: 95%;
+    margin-bottom: 25px;
+  }
+  mark {
+    width: 80%;
+    margin-bottom: 5px;
+  }
+  .number, .email{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about_info, .resume_body, .contact_info {
+    width: 90%;
+  }
+
+}

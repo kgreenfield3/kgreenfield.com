@@ -120,16 +120,16 @@ hr {
 }
 
 #mortgage_calc {
-  background-image: url("mockDrop_iPhone_5.jpg");
+  background-image: url("https://imgur.com/tyg9lcd");
   background-size: cover;
 }
 #lms {
-  background-image: url("mockDrop_Workin_hard.jpg");
+  background-image: url("https://imgur.com/PwIBMtO");
   background-size: cover;
   padding: 50px;
 }
 #falc_ads {
-  background-image: url("falc_ads.png");
+  background-image: url("https://imgur.com/BefpAP2");
   background-size: cover;
 }
   .work_title {
@@ -234,7 +234,7 @@ hr {
 .headshot {
   height: 400px;
   width: 400px;
-  background-image: url("headshot.JPG");
+  background-image: url("https://imgur.com/XMJDTAT");
   background-size: cover;
   background-position: center;
   margin: 25px;
@@ -259,7 +259,7 @@ hr {
 
 .screenshots {
   padding-top: 56.94%;
-  background-image: url("mortgage_calc.png");
+  background-image: url("https://imgur.com/m1t7Hdl");
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);

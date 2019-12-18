@@ -122,17 +122,17 @@ hr {
 #mortgage_calc {
   background-image: url("mockDrop_iPhone_5.jpg");
   background-size: cover;
-  padding: 50px;
+  padding: 25px;
 }
 #lms {
   background-image: url("mockDrop_Workin_hard.jpg");
   background-size: cover;
-  padding: 50px;
+  padding: 25px;
 }
 #falc_ads {
   background-image: url("falc_ads.png");
   background-size: cover;
-  padding: 50px;
+  padding: 25px;
 }
   .work_title {
   visibility: visible;

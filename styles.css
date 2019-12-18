@@ -120,16 +120,16 @@ hr {
 }
 
 #mortgage_calc {
-  background-image: url("https://imgur.com/tyg9lcd");
+  background-image: url("mockDrop_iPhone_5.jpg");
   background-size: cover;
 }
 #lms {
-  background-image: url("https://imgur.com/PwIBMtO");
+  background-image: url("mockDrop_Workin_hard.jpg");
   background-size: cover;
   padding: 50px;
 }
 #falc_ads {
-  background-image: url("https://imgur.com/BefpAP2");
+  background-image: url("falc_ads.png");
   background-size: cover;
 }
   .work_title {
@@ -234,7 +234,7 @@ hr {
 .headshot {
   height: 400px;
   width: 400px;
-  background-image: url("https://imgur.com/XMJDTAT");
+  background-image: url("headshot.JPG");
   background-size: cover;
   background-position: center;
   margin: 25px;
@@ -259,7 +259,7 @@ hr {
 
 .screenshots {
   padding-top: 56.94%;
-  background-image: url("https://imgur.com/m1t7Hdl");
+  background-image: url("mortgage_calc.png");
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
@@ -320,7 +320,7 @@ hr {
   .about_info, .resume_body, .contact_info {
     width: 90%;
   }
-  
+
   .topnav {
     margin: 0 auto;
     float: center;
@@ -338,4 +338,3 @@ hr {
   padding: 15px;
 }
 }
-  

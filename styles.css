@@ -306,6 +306,9 @@ hr {
   .headshot {
     margin: 0px;
     width: 90%;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
   }
   .work {
     width: 95%;

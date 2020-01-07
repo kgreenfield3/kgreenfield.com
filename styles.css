@@ -242,9 +242,12 @@ hr {
   margin: 25px;
 }
 
-
 .about_info {
   width: 65%;
+}
+
+.fa_ghost {
+  color: white;
 }
 
 .about_info, .about_info a, .contact_info a, .about_mc a {
@@ -260,27 +263,44 @@ hr {
 
 
 .screenshots {
-  padding-top: 56.94%;
+  padding-top: 57%;
   background-image: url("mortgage_calc.png");
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   margin-right: 20px;
+  image-rendering: -webkit-optimize-contrast;
+}
+.screenshots_1 {
+  padding-top: 47.3%;
+  background-image: url("mortgage_redesign.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  image-rendering: -webkit-optimize-contrast;
 }
 .redesign_mc {
   width: 65%;
   margin: 0 auto;
 }
 
-
+/*ADS*/
+.gifs {
+  margin: 20px;
+}
+.gif_list {
+  text-align: center;
+}
 /*FOOTER*/
 .footer {
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  color: black;
 }
 
-.fa-instagram, .fa-github-square {
+.fa-instagram, .fa-github-square{
   margin-top: 25px;
   margin-bottom: 25px;
   font-size: calc(36px + .8vw);

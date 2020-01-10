@@ -67,7 +67,10 @@ hr {
   margin: 20px;
   margin-top: 45px;
   margin-right: 45px;
+}
 
+.topnav a {
+  color: black;
 }
 
 .dot {

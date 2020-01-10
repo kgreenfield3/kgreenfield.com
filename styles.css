@@ -108,6 +108,7 @@ hr {
   margin-top: 45px;
   font-size: calc(21px + .4vw);
   align-items: center;
+  color: black;
 }
 
 .work {

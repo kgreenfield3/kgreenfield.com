@@ -285,6 +285,20 @@ hr {
   margin: 0 auto;
 }
 
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.images img {
+  height: 49%;
+  width: 49%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  image-rendering: -webkit-optimize-contrast;
+}
+
+
+
 /*ADS*/
 .gifs {
   margin: 20px;
@@ -310,7 +324,7 @@ hr {
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 1028px) {
-  .details, .education_details {
+  .details, .education_details, .images {
     display: flex;
     flex-direction: column;
   }
@@ -322,6 +336,10 @@ hr {
   }
   .dot {
     display: none;
+  }
+  .images img {
+    width: 100%;
+    margin-bottom: 10px;
   }
   .headshot {
     margin: 0px;
@@ -363,4 +381,5 @@ hr {
   text-align: center;
   padding: 15px;
 }
+
 }

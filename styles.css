@@ -289,6 +289,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  image-rendering: -webkit-optimize-contrast;
 }
 .images img {
   height: 49%;

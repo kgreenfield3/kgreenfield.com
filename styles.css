@@ -166,7 +166,7 @@ hr {
 
 /*RESUME*/
 .resume_body {
-  width: 95%;
+  width: 95% !important;
   margin: 0 auto;
 }
 

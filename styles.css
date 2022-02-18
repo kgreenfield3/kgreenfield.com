@@ -57,16 +57,22 @@ hr {
 
 /*NAVIGATION*/
 
+.page_container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
 .nav_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .topnav {
   float: right;
   margin: 20px;
   margin-top: 45px;
-  margin-right: 45px;
+  /*margin-right: 45px;*/
 }
 
 .topnav a {
@@ -78,7 +84,7 @@ hr {
   height: 75px;
   float: left;
   margin: 20px;
-  margin-left: 45px;
+  /*margin-left: 45px;*/
   margin-top: 45px;
   background-image: url("Logo Copy.png");
   background-size: cover;
@@ -91,7 +97,7 @@ hr {
 /*TITLE*/
 
 .title {
-  margin: 0 auto;
+  margin: -25px auto 25px;
   justify-content: center;
   text-align: center;
 }
@@ -124,16 +130,19 @@ hr {
   background-size: cover;
   padding: 25px;
 }
+
 #lms {
   background-image: url("mockDrop_Workin_hard.jpg");
   background-size: cover;
   padding: 25px;
 }
+
 #falc_ads {
   background-image: url("falc_ads.png");
   background-size: cover;
   padding: 25px;
 }
+
   .work_title {
   visibility: visible;
   opacity: 1;
@@ -157,9 +166,10 @@ hr {
 
 /*RESUME*/
 .resume_body {
-  width: 65%;
+  width: 95%;
   margin: 0 auto;
 }
+
 .resume_header {
   font-size: calc(28px + .4vw);
   font-family: 'Heebo', sans-serif;
@@ -185,14 +195,16 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
 .contact_info {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 33%;
-  margin: 0 auto;
+  width: 40%;
+  margin: -10px auto;
 }
+
 .website, .number, .email {
   text-align: center;
   margin: 0 auto;
@@ -200,9 +212,11 @@ hr {
   align-items: center;
   font-size: calc(14px + .4vw);
 }
+
 .date, .degree {
   float: right;
 }
+
 .company_name, .school_name {
   float: left;
 }
@@ -217,21 +231,32 @@ hr {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.head_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head_name p {
+  margin-top: -20px ;
+}
+
 .about_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 20px;
-  margin-left: 45px;
-  margin-right: 45px;
+  /*margin-left: 45px;
+  margin-right: 45px;*/
   margin-top: 45px;
   font-size: calc(21px + .4vw);
   align-items: center;
 }
+
 .intro h2 {
   margin-bottom: 25px;
 }
-
 
 .headshot {
   height: 400px;
@@ -239,7 +264,7 @@ hr {
   background-image: url("headshot.JPG");
   background-size: cover;
   background-position: center;
-  margin: 25px;
+  margin: 25px 25px 25px 0px;
 }
 
 .about_info {
@@ -255,6 +280,7 @@ hr {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 /*MORTGAGE CALC*/
 .content {
   width: 90%;
@@ -271,6 +297,7 @@ hr {
   margin-right: 20px;
   image-rendering: -webkit-optimize-contrast;
 }
+
 .screenshots_1 {
   padding-top: 47.3%;
   background-image: url("mortgage_redesign.png");
@@ -280,6 +307,7 @@ hr {
   margin-right: 20px;
   image-rendering: -webkit-optimize-contrast;
 }
+
 .redesign_mc {
   width: 65%;
   margin: 0 auto;
@@ -291,6 +319,7 @@ hr {
   justify-content: space-evenly;
   image-rendering: high-quality;
 }
+
 .images img {
   height: 49%;
   width: 49%;
@@ -298,15 +327,15 @@ hr {
   image-rendering: high-quality;
 }
 
-
-
 /*ADS*/
 .gifs {
   margin: 20px;
 }
+
 .gif_list {
   text-align: center;
 }
+
 /*FOOTER*/
 .footer {
   justify-content: center;
@@ -329,38 +358,46 @@ hr {
     display: flex;
     flex-direction: column;
   }
+
   .work_container, .nav_container, .about_container, .contact_info, .mc_intro  {
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
   }
+
   .dot {
     display: none;
   }
+
   .images img {
     width: 100%;
     margin-bottom: 10px;
   }
+
   .headshot {
     margin: 0px;
     width: 90%;
-    height: 300px;
-    width: 300px;
+    height: 324px;
+    width: 324px;
     background-size: contain;
   }
+
   .work {
     width: 95%;
     margin: 25px;
   }
+
   mark {
-    width: 65%;
+    width: 100%;
     margin-bottom: 5px;
   }
+
   .number, .email{
     margin: 0 auto;
     text-align: center;
   }
+
   .about_info, .resume_body, .contact_info {
     width: 90%;
   }
@@ -371,6 +408,7 @@ hr {
     margin: 20px;
     color: black;
   }
+
   .work_title {
   visibility: visible;
   opacity: 1;
@@ -381,6 +419,13 @@ hr {
   font-weight: 100;
   text-align: center;
   padding: 15px;
+  }
+
+.head_name p {
+  margin-top: 10px;
 }
 
+.title {
+  margin: 0px auto !important;
+}
 }

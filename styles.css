@@ -166,7 +166,7 @@ hr {
 
 /*RESUME*/
 .resume_body {
-  width: 95% !important;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -339,7 +339,7 @@ hr {
 /*FOOTER*/
 .footer {
   justify-content: center;
-  margin: 0 auto;
+  margin: -10px auto;
   text-align: center;
   color: black;
 }

@@ -23,30 +23,39 @@
 <!-- Instagram pics for my other interests -->
 <script src="//lightwidget.com/widgets/lightwidget.js"></script>
 <link rel="icon" href="Logo Copy.png">
+<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+  <defs>
+    <filter id="marker-shape">
+      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+    </filter>
+  </defs>
+</svg>
 </head>
 
 <div class="page_container">
 <div class="nav_container">
-  <div class="dot" onclick = "location.href = '/'"></div>
+  <div class="dot"onclick = "location.href = '/'"></div>
   <div class="topnav">
-    <h2><a href="/"><u>WORK</u></a>
-      <a href="about">ABOUT</a>
-      <a href="resume">RESUME</a></h2>
-    </div>
-</div>
-<div class ="title">
-  <h1> KYRSTEN GREENFIELD </h1>
-  <h3> Senior UX Researcher based in NYC</h3>
-</div>
-<div class="work_container">
-  <div class="work" id="mortgage_calc" onclick = "location.href = 'mortgage_calc'"><div class="work_title">Mortgage Calculator</div></div>
-    <div class="work" id="lms" onclick = "location.href = 'user_personas'"><div class="work_title">User Personas</div></div>
-      <div class="work" id="falc_ads" onclick = "location.href = 'falc_ads'"><div class="work_title">SmartAdvisor Ads</div></div>
-</div>
+      <h2><a href="/"><u>WORK</u></a>
+        <a href="about">ABOUT</a>
+        <a href="resume">RESUME</a></h2>
+      </div>
+  </div>
+  <div class ="title">
+    <h1> KYRSTEN GREENFIELD </h1>
+    <h3> Senior UX Researcher based in NYC</h3>
+  </div>
+  <div class="work_container">
+    <div class="work" id="mortgage_calc" onclick = "location.href = 'mortgage_calc'"><div class="work_title">Mortgage Calculator</div></div>
+    <div class="work" id="funnel_improvements" onclick = "location.href = 'funnel_improvements'"><div class="work_title">Funnel Improvements</div></div>
+      <div class="work" id="direct_fa"><div class="work_title">Coming Soon!!</div></div>
 
+  </div>
 
 <div class="footer">
   <i class="fab fa-instagram" onclick = "location.href = 'https://www.instagram.com/kgreenfield7/'" target="_blank"></i>
   <i class="fab fa-github-square" onclick = "location.href = 'https://github.com/kgreenfield3'" target="_blank"></i>
-</div></div>
+  <i class="fab fa-linkedin-in" onclick = "location.href = 'https://www.linkedin.com/in/kgreenfield3/'" target="_blank"></i>
+</div></div></div>
 </html>

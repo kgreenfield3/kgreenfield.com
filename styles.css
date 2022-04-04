@@ -295,6 +295,9 @@ background-color: #174EB3;
 .intro span {
   margin: 0px 10px;
 }
+.intro h4 {
+  margin: 0px;
+}
 
 .headshot {
   height: 400px;

@@ -481,6 +481,7 @@ transform: translateY(0%);
 .wins {
   display: flex;
   flex-direction: column;
+  padding: 0px;
 }
 .win_num {
   display: none;

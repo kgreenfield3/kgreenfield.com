@@ -316,10 +316,11 @@ background-color: #174EB3;
   color: white;
 }
 
-.about_info, .about_info a, .contact_info a, .background a {
+.about_info, .about_info a, .contact_info a, .background a, .page_container a {
   font-size: calc(16px + .4vw);
   padding-left: 0px !important;
   padding-right: 0px !important;
+  cursor: pointer;
 }
 
 /* CASE STUDIES*/

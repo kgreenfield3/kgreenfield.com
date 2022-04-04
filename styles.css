@@ -132,8 +132,8 @@ background-color: #174EB3;
   padding: 25px;
 
 }
-.work:hover {
-   -webkit-filter: brightness(70%);
+#mortgage_calc:hover  {
+   background-color: #0b2759;
 }
 
 #funnel_improvements {
@@ -142,6 +142,9 @@ background-color: #174EB3;
   background-size: cover;
   padding: 25px;
 }
+#funnel_improvements:hover  {
+   background-color: #7f0000;
+}
 
 #additional_wins {
   /*background-image: url("falc_ads.png");*/
@@ -149,11 +152,15 @@ background-color: #174EB3;
   background-size: cover;
   padding: 25px;
 }
+#additional_wins:hover  {
+   background-color: #7f6100;
+}
 
   .work_title {
   visibility: visible;
   opacity: 1;
-  color: white;
+  color: black;
+  background: white;
   font-size: calc(36px + .4vw);
   font-family: 'Heebo', sans-serif;
   font-weight: 300;
@@ -455,7 +462,7 @@ border-radius: 7.5px;
   .work_title {
   visibility: visible;
   opacity: 1;
-  color: white;
+  color: black;
   font-size: calc(24px + .4vw);
   font-family: 'Heebo', sans-serif;
   font-weight: 100;

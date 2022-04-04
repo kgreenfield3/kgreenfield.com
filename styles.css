@@ -143,7 +143,7 @@ background-color: #174EB3;
   padding: 25px;
 }
 
-#direct_fa {
+#additional_wins {
   /*background-image: url("falc_ads.png");*/
   background-color: #FFC200;
   background-size: cover;
@@ -153,18 +153,38 @@ background-color: #174EB3;
   .work_title {
   visibility: visible;
   opacity: 1;
-  color: black;
+  color: white;
   font-size: calc(36px + .4vw);
   font-family: 'Heebo', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
   padding: 15px;
   opacity: 1;
+}
+.work_title: hover, .work_title: active {
+  font-weight: 500 !important;
 }
 
 
 .work:hover, .dot:hover, .fa-instagram:hover, .fa-github-square:hover {
     cursor: pointer;
+}
+/* WINS */
+.wins {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0px 5px 25px;
+  align-items: flex-start;
+}
+.win_num {
+  font-size: 78px;
+  opacity: 30%;
+  color: #FFC200;
+  margin: auto 0;
+  width: 10%;
+  text-align: center;
+  align-content: flex-start;
+  padding-right: 25px;
 }
 
 
@@ -454,4 +474,18 @@ border-radius: 7.5px;
 .redesign img{
   top: 0%;
 transform: translateY(0%);
-}}
+}
+
+}
+@media only screen and (max-width: 620px) {
+.wins {
+  display: flex;
+  flex-direction: column;
+}
+.win_num {
+  display: none;
+}
+.win_summary {
+  width: 100%;
+}
+}

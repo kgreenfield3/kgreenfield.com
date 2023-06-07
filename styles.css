@@ -81,14 +81,13 @@ hr {
 }
 
 .dot {
-  width: 75px;
-  height: 75px;
+  width: 256px;
   float: left;
   margin: 20px;
-  /*margin-left: 45px;*/
   margin-top: 45px;
-  background-image: url("Logo Copy.png");
-  background-size: cover;
+}
+.dot img {
+ width: 100%;
 }
 
 .fa-jack-o-lantern  {

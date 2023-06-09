@@ -4,6 +4,9 @@
   padding: 8px;
   margin-bottom: 32px;
 }
+.new-personas {
+  width: 100%;
+}
 
 /* FLIP CARDS */
 .flip-card {

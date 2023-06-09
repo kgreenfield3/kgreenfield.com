@@ -1,5 +1,11 @@
+/* EXTRA */
+.new_update {
+  border: 1px dashed lightgrey;
+  padding: 8px;
+  margin-bottom: 32px;
+}
+
 /* FLIP CARDS */
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   width: 100%;
   height: 304px;
@@ -10,7 +16,6 @@
   padding:
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -20,13 +25,11 @@
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
   cursor: pointer;
 }
 
-/* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -42,7 +45,6 @@
   align-items: center;
 }
 
-/* Style the back side */
 .flip-card-back {
   background-color: white;
   color: black;
@@ -66,7 +68,6 @@
 }
 
 /*TAGS*/
-
 hr {
   font-size: calc(18px + .4vw);
   font-family: 'Heebo', sans-serif;
@@ -174,13 +175,13 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 32px 16px !important;
+  margin: 32px 16px 0 !important;
   font-size: calc(21px + .4vw);
   align-items: center;
 }
 
 .work {
-  width: 32%;
+  width: 48%;
   height: 304px;
   object-fit: contain;
   display: flex;
@@ -192,7 +193,6 @@ hr {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
 background-color: #174EB3;
 background-size: cover;
-padding: 24px;
 
 }
 #mortgage_calc:hover  {
@@ -203,7 +203,6 @@ padding: 24px;
   /*background-image: url("mockDrop_Workin_hard.jpg");*/
   background-color: #FF0000;
   background-size: cover;
-  padding: 24px;
 }
 #funnel_improvements:hover  {
    background-color: #7f0000;
@@ -242,6 +241,7 @@ padding: 24px;
 .work:hover, .dot:hover, .fa-instagram:hover, .fa-github-square:hover {
     cursor: pointer;
 }
+
 /* WINS */
 .wins {
   display: flex;
@@ -262,7 +262,6 @@ padding: 24px;
 
 
 /*RESUME*/
-
 .resume_body {
   width: 90%;
   margin: 0 auto;
@@ -326,8 +325,8 @@ padding: 24px;
   font-size: 5px;
   margin: 0 auto;
 }
-/*ABOUT*/
 
+/*ABOUT*/
 #about_me {
   padding-left: 0px;
   padding-right: 0px;
@@ -504,8 +503,8 @@ border-radius: 7.5px;
   }
 
   .work {
-    width: 95%;
-    margin: 24px;
+    width: 100%;
+    margin: 0 0 32px;
   }
 
   mark {

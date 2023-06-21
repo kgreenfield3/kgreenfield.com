@@ -20,6 +20,10 @@
 #funnel-img-section {
   margin: 0 auto;
   text-align: center;
+  width: 40%
+}
+#funnel-info-section {
+  width: 60%
 }
 .usability-item img {
   width: 100%;

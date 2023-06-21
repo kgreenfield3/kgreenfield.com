@@ -15,7 +15,6 @@
 }
 .usability-item {
   width: 48%;
-
 }
 #funnel-img-section {
   margin: 0 auto;
@@ -32,6 +31,10 @@
   max-height: 225px;
   width: auto;
 }
+#fun-icon {
+  width: 50%;
+}
+
 /* FLIP CARDS */
 .flip-card {
   width: 100%;
@@ -178,7 +181,7 @@ hr {
 .dot {
   width: 256px;
   float: left;
-  margin: 24px;
+  margin: 64px;
   margin-top: 48px;
 }
 .dot img {
@@ -218,31 +221,31 @@ hr {
 
 #mortgage_calc, #ux_team {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
-background-color: #174EB3;
+border: 5px solid #003D00;
 background-size: cover;
 
 }
 #mortgage_calc:hover  {
-   background-color: #0b2759;
+   border: 35px solid #003D00;
 }
 
 #funnel_improvements, #ux_research {
   /*background-image: url("mockDrop_Workin_hard.jpg");*/
-  background-color: #FF0000;
+  border: 5px solid #003D00;
   background-size: cover;
 }
 #funnel_improvements:hover  {
-   background-color: #7f0000;
+   border: 35px solid #003D00;
 }
 
 #additional_wins, #research_design_system {
   /*background-image: url("falc_ads.png");*/
-  background-color: #FFC200;
+  border: 5px solid #003D00;
   background-size: cover;
   padding: 24px;
 }
 #additional_wins:hover  {
-   background-color: #7f6100;
+   border: 15px solid #003D00;
 }
 
   .work_title {
@@ -261,7 +264,7 @@ background-size: cover;
   font-weight: 500 !important;
 }
 .work_title span {
-  font-size: 16px;
+  font-size: 21px;
 
 }
 
@@ -549,7 +552,7 @@ border-radius: 7.5px;
   .topnav {
     margin: 0 auto;
     float: center;
-    margin: 24px;
+    margin: 48px;
     color: black;
   }
 

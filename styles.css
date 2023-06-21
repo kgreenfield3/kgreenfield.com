@@ -599,12 +599,15 @@ transform: translateY(0%);
   width: 100%;
 }
 .usability-section, .outcome-section {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 .usability-item, .outcome-info {
-  width: 100%;
+  width: 100% !important;
 }
 #funnel-img {
-  width: 100%;
+  width: 100% !important;
+}
+.topnav {
+  margin: 16px !important;
 }
 }

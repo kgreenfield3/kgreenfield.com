@@ -8,12 +8,12 @@
   width: 100%;
   margin-bottom: 16px;
 }
-.usability-section {
+.usability-section, .outcome-section {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.usability-item {
+.usability-item, .outcome-info {
   width: 48%;
 }
 #funnel-img-section {
@@ -26,6 +26,10 @@
 }
 .usability-item img {
   width: 100%;
+}
+.outcome-info img {
+  width: 85%;
+  margin: 16px;
 }
 #funnel-img {
   max-height: 225px;
@@ -88,13 +92,13 @@
 
 }
 #ux_team_back {
-  border: 1px solid #174EB3;
+  border: 5px solid #003D00;
 }
 #ux_research_back {
-  border: 1px solid #FF0000;
+  border: 5px solid #003D00;
 }
 #research_design_back {
-  border: 1px solid #FFC200;
+  border: 5px solid #003D00;
 }
 
 /*TAGS*/
@@ -219,14 +223,14 @@ hr {
   justify-content: center;
 }
 
-#mortgage_calc, #ux_team {
+#mortgage_calc, #ux_team, #ux_practice {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
 border: 5px solid #003D00;
 background-size: cover;
 
 }
-#mortgage_calc:hover  {
-   border: 35px solid #003D00;
+#mortgage_calc:hover, #ux_practice:hover  {
+   background-color: #daffda;
 }
 
 #funnel_improvements, #ux_research {
@@ -235,7 +239,7 @@ background-size: cover;
   background-size: cover;
 }
 #funnel_improvements:hover  {
-   border: 35px solid #003D00;
+     background-color: #daffda;
 }
 
 #additional_wins, #research_design_system {
@@ -245,7 +249,7 @@ background-size: cover;
   padding: 24px;
 }
 #additional_wins:hover  {
-   border: 15px solid #003D00;
+      background-color: #daffda;
 }
 
   .work_title {
@@ -594,10 +598,10 @@ transform: translateY(0%);
 .win_summary {
   width: 100%;
 }
-.usability-section {
+.usability-section, .outcome-section {
   flex-direction: column;
 }
-.usability-item {
+.usability-item, .outcome-info {
   width: 100%;
 }
 #funnel-img {

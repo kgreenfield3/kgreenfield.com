@@ -457,7 +457,7 @@ border-radius: 7.5px;
 /*FOOTER*/
 .footer {
   justify-content: center;
-  margin: -8px auto;
+  margin: 8px auto;
   text-align: center;
   color: black;
 }

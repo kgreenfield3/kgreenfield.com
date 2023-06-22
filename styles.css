@@ -242,7 +242,7 @@ hr {
 
 #mortgage_calc, #ux_team, #ux_practice, #ux_team {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
-border: 5px solid #D82525;
+border: 5px solid #6c1212;
 background-size: cover;
 
 }
@@ -252,7 +252,7 @@ background-size: cover;
 
 #funnel_improvements, #ux_research {
   /*background-image: url("mockDrop_Workin_hard.jpg");*/
-  border: 5px solid #D82525;
+  border: 5px solid #6c1212;
   background-size: cover;
 }
 #funnel_improvements:hover  {
@@ -261,7 +261,7 @@ background-size: cover;
 
 #additional_wins, #research_design_system {
   /*background-image: url("falc_ads.png");*/
-  border: 5px solid #D82525;
+  border: 5px solid #6c1212;
   background-size: cover;
   padding: 24px;
 }
@@ -520,7 +520,7 @@ border-radius: 7.5px;
 }
 .fa-instagram:hover, .fa-github-square:hover, .fa-linkedin-in:hover, .fa-instagram:active, .fa-github-square:active, .fa-linkedin-in:active {
   cursor: pointer;
-  color: #FF0000;
+  color: #6c1212;
 }
 
 

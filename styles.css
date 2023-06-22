@@ -1,4 +1,7 @@
 /* EXTRA */
+.topnav a {
+  padding: 0 16px;
+}
 .research-q {
   width: 75%;
   background-color: #f9dede;
@@ -6,12 +9,24 @@
   padding: 16px;
   border-radius: 16px;
 }
+#blurb {
+  justify-content: center;
+  align-self: center;
+  background-color:#f9dede;
+  padding: 16px;
+  border-radius: 16px;
+}
+#gif-container {
+  display: flex;
+  justify-content: center;
+}
 .research-q h4 {
   text-align: center;
 }
 .research-item ul {
   margin-top: 8px;
 }
+
 .cs-section {
   width: 100%;
   padding: 16px 64px;
@@ -213,11 +228,11 @@ i {
 }
 
 a {
-  font-size: calc(18px + .4vw);
+  font-size: calc(16px + .4vw);
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 h2 {
   font-size: calc(21px + .4vw);
@@ -227,7 +242,7 @@ h2 {
 h3 {
   font-size: calc(16px + .4vw);
   font-family: 'Lato', sans-serif;
-  font-weight: 350;
+  font-weight: 400;
   margin-bottom: 8px;
 }
 
@@ -310,7 +325,7 @@ hr {
 }
 
 .work {
-  width: 32%;
+  width: 48%;
   height: 304px;
   object-fit: contain;
   display: flex;
@@ -718,6 +733,10 @@ h1 {
 }
 #intro {
   padding: 16px;
+}
+#gif {
+  width: 100%;
+  margin: 0 auto;
 }
 
 

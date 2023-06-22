@@ -215,7 +215,7 @@ hr {
 }
 
 .work {
-  width: 48%;
+  width: 32%;
   height: 304px;
   object-fit: contain;
   display: flex;
@@ -223,13 +223,13 @@ hr {
   justify-content: center;
 }
 
-#mortgage_calc, #ux_team, #ux_practice {
+#mortgage_calc, #ux_team, #ux_practice, #ux_team {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
 border: 5px solid #003D00;
 background-size: cover;
 
 }
-#mortgage_calc:hover, #ux_practice:hover  {
+#mortgage_calc:hover, #ux_practice:hover, #ux_team:hover  {
    background-color: #daffda;
 }
 

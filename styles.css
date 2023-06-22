@@ -242,31 +242,31 @@ hr {
 
 #mortgage_calc, #ux_team, #ux_practice, #ux_team {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
-border: 5px solid #003D00;
+border: 5px solid #D82525;
 background-size: cover;
 
 }
 #mortgage_calc:hover, #ux_practice:hover, #ux_team:hover  {
-   background-color: #daffda;
+   background-color: #eb9292;
 }
 
 #funnel_improvements, #ux_research {
   /*background-image: url("mockDrop_Workin_hard.jpg");*/
-  border: 5px solid #003D00;
+  border: 5px solid #D82525;
   background-size: cover;
 }
 #funnel_improvements:hover  {
-     background-color: #daffda;
+     background-color: #eb9292;
 }
 
 #additional_wins, #research_design_system {
   /*background-image: url("falc_ads.png");*/
-  border: 5px solid #003D00;
+  border: 5px solid #D82525;
   background-size: cover;
   padding: 24px;
 }
 #additional_wins:hover  {
-      background-color: #daffda;
+      background-color: #eb9292;
 }
 
   .work_title {

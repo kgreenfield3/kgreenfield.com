@@ -333,13 +333,13 @@ hr {
   justify-content: center;
 }
 
-#mortgage_calc, #ux_team, #ux_practice, #ux_team, #funnel_improvements, #ux_research, #additional_wins, #research_design_system  {
+#mortgage_calc, #ux_team, #ux_practice, #ux_team, #funnel_improvements, #ux_research, #additional_wins, #research_design_system, #leadership  {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
 border: 3px dashed #D82525;
 background-size: cover;
 
 }
-#mortgage_calc:hover, #ux_practice:hover, #ux_team:hover, #additional_wins:hover, #funnel_improvements:hover   {
+#mortgage_calc:hover, #ux_practice:hover, #ux_team:hover, #additional_wins:hover, #funnel_improvements:hover, #leadership:hover   {
    background-color: #f9dede;
    border: 3px solid #D82525;
 }

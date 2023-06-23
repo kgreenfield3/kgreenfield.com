@@ -2,6 +2,20 @@
 .topnav a {
   padding: 0 16px;
 }
+.focus-area-d {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0 32px;
+  width: 100%;
+}
+.area-d {
+  width: 25%;
+}
+.focus-area-m {
+  display: none;
+}
+
 .research-q {
   width: 75%;
   background-color: #f9dede;
@@ -48,7 +62,6 @@
 }
 .research-item {
   width: 50%;
-
 }
 .research-item h4 {
   margin: 0 auto;
@@ -58,6 +71,10 @@
   max-height: 220px;
   width: auto;
   margin: 16px;
+}
+#design-system-img img {
+  max-width: 300px;
+  margin: 0 16px;
 }
 
 .title p {
@@ -266,8 +283,9 @@ mark {
 }
 
 hr {
-  margin-top: -8px;
   border-top: 1px dashed lightgrey;
+  width: 25%;
+  margin: 16px auto 0;
 }
 
 /*NAVIGATION*/
@@ -325,7 +343,7 @@ hr {
 }
 
 .work {
-  width: 48%;
+  width: 32%;
   height: 304px;
   object-fit: contain;
   display: flex;
@@ -357,13 +375,14 @@ background-size: cover;
   padding: 16px;
   opacity: 1;
   width: 100%;
-  line-height: 42px;
+  line-height: 48px;
 }
 .work_title: hover, .work_title: active {
   font-weight: 500 !important;
 }
 .work_title span {
   font-size: 21px;
+  line-height: 28px !important;
 
 
 }
@@ -677,6 +696,7 @@ border-radius: 7.5px;
 
 .title {
   margin: 0px auto !important;
+  padding: 0 16px;
 }
 
 .redesign img{
@@ -728,6 +748,9 @@ transform: translateY(0%);
   width: 100%;
   margin: 16px 0;
 }
+.work_container {
+  margin: 0 16px !important;
+}
 h1 {
   margin-top: 0 !important;
 }
@@ -738,6 +761,35 @@ h1 {
   width: 100%;
   margin: 0 auto;
 }
+.focus-area {
+  flex-direction: column;
+  width: 100%;
+}
+.area {
+  width: 100%;
+}
 
 
+}
+@media only screen and (max-width: 800px) {
+#design-update {
+  display: flex;
+  flex-direction: column;
+}
+#design-update .research-item {
+  width: 100%;
+  margin-top: 16px;
+}
+.focus-area-m {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.area-m {
+  width: 100%;
+
+}
+.focus-area-d {
+  display: none;
+}
 }

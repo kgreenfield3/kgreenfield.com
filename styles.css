@@ -768,6 +768,10 @@ h1 {
 .area {
   width: 100%;
 }
+.topnav h2 {
+  width: 75%;
+margin: 0 auto;
+}
 
 
 }

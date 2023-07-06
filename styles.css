@@ -13,6 +13,16 @@
   text-decoration: none;
 
 }
+.pill {
+  border-radius: 50px;
+  background-color: #F9DEDE;
+  font-size: 24px;
+  line-height: 24px;
+  width: 160px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
 .button {
   background-color: #f9dede;
   border-radius: 10px;
@@ -379,15 +389,30 @@ hr {
   margin: 32px 64px 0 !important;
   font-size: calc(21px + .4vw);
   align-items: center;
+  align-content: space-between;
 }
 
 .work {
-  width: 48%;
+  width: 45%;
   height: 304px;
   object-fit: contain;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  visibility: visible;
+  opacity: 1;
+  color: black;
+  background: white;
+  font-size: calc(36px + .4vw);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 16px;
+  opacity: 1;
+  width: 100%;
+  line-height: 48px;
+  margin: 16px;
 }
 
 #mortgage_calc, #ux_team, #ux_practice, #ux_team, #funnel_improvements, #ux_research, #additional_wins, #research_design_system, #leadership  {
@@ -419,7 +444,7 @@ background-size: cover;
 .work_title: hover, .work_title: active {
   font-weight: 500 !important;
 }
-.work_title span {
+.work span {
   font-size: 21px;
   line-height: 28px !important;
 
@@ -428,6 +453,7 @@ background-size: cover;
 
 .work:hover, .dot:hover, .fa-instagram:hover, .fa-github-square:hover {
     cursor: pointer;
+  
 }
 
 /* WINS */

@@ -792,7 +792,7 @@ transform: translateY(0%);
   width: 100% !important;
 }
 .topnav {
-  margin: 16px !important;
+  margin: 16px 0 16px 32px !important;
 }
 .research-approach {
   display: flex;
@@ -839,6 +839,9 @@ margin: 0 auto;
 .nav_container-mobile  {
   padding: 0 16px;
 
+}
+#resume-link {
+   margin-right: -12px;
 }
 
 

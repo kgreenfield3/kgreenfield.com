@@ -78,14 +78,14 @@
 <div class = "cs-section">
   <div class = "project_overview">
     <h2>Background</h2>
-  <p>SmartAsset is the leading marketplace that connects consumers with financial advisors. Before 2021, our 25-30 panel funnel attracted over 30,000 consumers each month, resulting in matching with up to 3 advisors and an average conversion rate (CVR) of 2.9%. However, the substantial drop-off rate within the funnel indicated a clear opportunity for enhancement. Consequently, the Conversion Rate Optimization (CRO) team was tasked with improving the CVR of the funnel experience.</p>
+  <p>SmartAsset is the leading marketplace that connects consumers with financial advisors. Before 2021, our 25-30 panel questionnaire (aka "the funnel") attracted over 30,000 consumers each month, resulting in matching with up to 3 advisors and an average conversion rate (CVR) of 2.9%. However, the substantial drop-off rate within the funnel indicated a clear opportunity for enhancement. Consequently, the Conversion Rate Optimization (CRO) team was tasked with improving the CVR of the funnel experience.</p>
   <p style="margin-top: 16px">Goal: Improve CVR by 100% through ongoing A/B testing of SmartAsset’s Matching Service funnel</p>
   </div>
   </div>
     <div class = "cs-section">
       <div class = "project_overview">
         <h2>Research Process</h2>
-        <p>I was responsible for all research conducted for this project. I utilized a two-pronged approach to gain a comprehensive understanding of our user base and evaluate the usability of the current funnel experience. By combining these research methods, I was able to gather valuable insights that would guide our efforts in optimizing the user experience and enhancing the funnel's performance. Example questions and learnings can be found in the Appendix.</p>
+        <p>I was responsible for all research conducted for this project. I utilized a two-pronged approach to gain a comprehensive understanding of our user base and evaluate the usability of the current funnel experience. By combining these research methods, I was able to gather valuable insights that would guide our efforts in optimizing the user experience and enhancing the funnel's performance. <a href="https://docs.google.com/document/d/13cGYdWkItHBYK2OYsMf1V24uPHPV9KM-d_jeAHENdDQ/edit?usp=sharing" target=”_blank”>The full research plan including the survey questions and usability testing tasks for the entire process can be found here.</a></p>
 
         <div class="research-q">
         <h4>Research Questions</h4>
@@ -96,18 +96,24 @@
       </div>
 <div class="section">
   <div class="research-item">
-      <h4>Exploratory Research</h4>
-      <ul><li>Objectives: Understand our user base</li>
-          <li>Methods: Consumer surveys, data analytics, industry data</li>
-          <li>Deliverables: User personas</li></ul>
+      <h4>User Research</h4>
+      <p>A 12-question email survey was sent out to all validated consumers to better understand the funnel audience.</p>
+          <ul><li>Objectives: Understand our user base</li>
+              <li>Methods: Consumer surveys</li>
+              <li>Participants: Validated consumers (n = 422)
+              <li>Deliverables: User personas</li>
+            </ul>
       </div>
   <div class="research-item">
       <h4>Usability Testing</h4>
-      <ul><li>Objectives: Identify usability issues</li>
-          <li>Methods: UX expert review, remote usability testing</li>
-          <li>Deliverables: List of UX/UI issues</li></ul>
+          <p>A task-based usability testing session was completed to identify the key pain points associated with the current funnel experience.</p>
+          <ul><li>Objectives: Identify usability issues</li>
+              <li>Methods: Remote usability testing</li>
+              <li>Participants: Testers similar to funnel audience (n = 20) </li>
+              <li>Deliverables: List of UX/UI issues</li></ul>
   </div>
-</div>
+</div><br>
+<p>After collecting all the feedback, I proceeded to categorize the qualitative data in order to gain a deeper understanding of the funnel audience. This involved identifying recurring themes and patterns related to their motivations, goals, and concerns. Furthermore, I assessed and prioritized key usability issues based on their severity and impact.</p>
 
 </div>
 </div>
@@ -132,15 +138,15 @@ During the research phase, I identified two distinct user segments: the "Pre-Ret
 <div class="research-item">
   <p> A number of UX and UI issues were identified during the usability testing phase. The primary issues can be found below:</p>
   <ol>
-    <li><b>Call-to-action (CTA) placements lacked consistency</b> throughout the funnel and would vary based on question length and answer options. Some CTAs were even positioned below the fold on mobile devices.</li>
-    <li><b>The answer option treatment gave the illusion of a smaller clickable area</b>, resulting in slower user progress.</li>
-    <li><b>The appropriate keyboards did not trigger</b> on text panels, leading to extra clicks for action completion.</li>
-    <li><b>The end-of-funnel loading screen lasted over 12 seconds</b> and lacked timing indication or next step guidance.</li>
+    <li>The end-of-funnel loading screen lasted over 12 seconds and lacked timing indication or next step guidance.</li>
+    <li>Call-to-action (CTA) placements lacked consistency throughout the funnel and would vary based on question length and answer options. Some CTAs were even positioned below the fold on mobile devices.</li>
+    <li>The answer option treatment gave the illusion of a smaller clickable area, resulting in slower user progress.</li>
+    <li>The appropriate keyboards did not trigger on text panels, leading to extra clicks for action completion.</li>
   </ol>
 </div>
 <div class="research-item">
     <h4>Example Question Panels</h4>
-<img src="ux-funnel-issues.png" class="new-personas">
+<img src="ux-issues.png" class="new-personas">
 </div>
 </div>
 </div>
@@ -150,10 +156,10 @@ During the research phase, I identified two distinct user segments: the "Pre-Ret
     <h2>A/B Testing Concepts</h2>
     <p>The previously stated insights influenced a number of successful A/B tests in Optimizely including, but not limited to, the following:</p>
     <ul>
+            <li><b>Loading Screen:</b> The duration of the loading screen was reduced by 50% to 6 seconds (+7% in CVR)</li>
       <li><b>CTA Positioning:</b> Standardized the CTA position on all devices, preventing any from going below the fold (+3% in CVR)</li>
       <li><b>Button Design Treatment:</b> All relevant buttons were given a border and enlarged to enhance the clickable area (+2.8% in CVR)</li>
       <li><b>Default Keyboard:</b> All text fields defaulted to the appropriate keyboard (+1% in CVR)</li>
-      <li><b>Loading Screen:</b> The duration of the loading screen was reduced by 50% to 6 seconds (+7% in CVR)</li>
     </ul>
   </div>
   </div>
@@ -166,7 +172,19 @@ During the research phase, I identified two distinct user segments: the "Pre-Ret
     </div>
     <div class = "cs-section">
       <div class = "project_overview">
+        <h2>Learnings</h2>
+      <ul>
+        <li><b>Achieving success in every instance is unlikely</b>, but conducting thorough research and understanding your audience can significantly increase your chances of achieving favorable outcomes while A/B testing.</li>
+        <li><b>Incorporating fundamental UX/UI best practices</b> can significantly enhance the overall user experience. Pay close attention to button positioning, accessibility, and page speed when creating a new experience.</li>
+      </ul>
+
+    </div>
+    </div>
+    <hr>
+    <div class = "cs-section">
+      <div class = "project_overview">
         <h2>2023 Update</h2>
+            <h3>Overview</h3>
         <p>The optimization of the funnel has consistently been a top priority, guided by research insights that have shaped our testing concepts since 2021. Our most recent findings have highlighted three key areas for improvement:
         <ol>
           <li> Managing user expectations during the matching experience</li>
@@ -175,33 +193,17 @@ During the research phase, I identified two distinct user segments: the "Pre-Ret
         </ol><br>
         As the UX lead, I had the responsibility of overseeing the development and implementation of all UX-based A/B testing concepts within the SmartAsset funnel. In Q1 2023, we achieved a 33% success rate, resulting in a combined <b>4.68% increase in CVR</b>, which equates to an estimated <b>monthly revenue uplift of $585k</b>. These impressive results demonstrate the positive impact of our UX initiatives on the overall performance of the funnel. Example test concepts can be found below:
       </p>
-      <img class="new-personas" src="accessibility-concepts.png" alt="testing concepts">
-      <img class="new-personas" src="expectations-service.png" alt="testing concepts">
+      <br>
+      <h3>Example Test Concepts</h3>
+      <h4>#1: Enhancing UI accessibility</h4>
+      <p>We conducted a highly successful test aimed at improving the accessibility of the funnel experience. This test involved expanding clickable areas to make them more user-friendly, providing additional visual feedback for CTAs on mobile devices, and updating the overall branding with a more accessible color palette. These changes greatly enhanced the accessibility of the funnel experience and resulted in significant positive outcomes for the CRO team.</p>
+  <img class="new-personas" src="accessibility-concepts.png" alt="testing concepts">
+  <br>  <br>
+  <h4>#2: Managing expectations during funnel experience</h4>
+  <p>We also conducted a significant test involving the reordering of our funnel. This test aimed to better manage user expectations by exploring a more logical question order, where similar questions were grouped together. This approach laid the groundwork for future funnel segmentation.</p>
+<img class="new-personas" src="funnel-reorder.png" alt="testing concepts">
+
     </div>
-      </div>
-      <div class = "cs-section">
-        <div class = "project_overview">
-          <h2>Appendix</h2>
-      <div class="section" style="margin-top: -8px">
-        <div class="research-item">
-        <h3><center>Learnings</center></h3>
-        <ul>
-          <li><b>Achieving success in every instance is unlikely</b>, but conducting thorough research and understanding your audience can significantly increase your chances of achieving favorable outcomes while A/B testing.</li>
-          <li><b>Incorporating fundamental UX/UI best practices</b> can significantly enhance the overall user experience. Pay close attention to button positioning, accessibility, and page speed when creating a new experience.</li>
-        </ul>
-        </div>
-      <div class="research-item">
-        <h3><center>Example Questions</center></h3>
-        <ul>
-          <li>How would you describe your financial situation?</li>
-          <li>What do you hope to achieve financially in the next 6 - 12 months?</li>
-          <li>What is the biggest challenge to achieving your financial goal?</li>
-          <li>How interested are you in working with a financial advisor?</li>
-          <li>What was the primary reason for using SmartAsset’s Matching Service?</li>
-
-        </ul>
-
-      </div>
       </div>
 
       </div>

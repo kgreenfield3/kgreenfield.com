@@ -1,7 +1,103 @@
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 80%;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
 /* EXTRA */
 .dot-mobile img {
   max-width: 56px;
   max-height: 56px;
+}
+.color-scheme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
+.colors {
+  width: 48px;
+  height: 48px;
 }
 .nav_container-mobile {
   display: none;
@@ -11,6 +107,17 @@
 }
 .research-item a:hover {
   text-decoration: none;
+
+}
+#intro-tag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+#intro-tag {
+  font-size: 48px;
+  line-height: 56px;
 
 }
 .pill {
@@ -24,19 +131,18 @@
   justify-content: center;
 }
 .button {
-  background-color: #f9dede;
+  background-color: #333333;
   border-radius: 10px;
-  color: black;
+  color: white;
   margin: 0 auto;
   padding: 8px 16px;
   width: 280px;
   text-align: center;
   font-size: 16px;
-  font-weight: bold;
 }
 .button:hover {
   cursor: pointer;
-  background-color: #f3bdbd;
+  font-weight: bolder;
 
 
 }
@@ -417,13 +523,11 @@ hr {
 
 #mortgage_calc, #ux_team, #ux_practice, #ux_team, #funnel_improvements, #ux_research, #additional_wins, #research_design_system, #leadership  {
 /*background-image: url("mockDrop_iPhone_5.jpg");*/
-border: 3px dashed #D82525;
-background-size: cover;
+border: 3px solid #D82525;
 
 }
 #mortgage_calc:hover, #ux_practice:hover, #ux_team:hover, #additional_wins:hover, #funnel_improvements:hover, #leadership:hover   {
    background-color: #f9dede;
-   border: 3px solid #D82525;
 }
 
 
@@ -453,7 +557,7 @@ background-size: cover;
 
 .work:hover, .dot:hover, .fa-instagram:hover, .fa-github-square:hover {
     cursor: pointer;
-  
+
 }
 
 /* WINS */
@@ -869,11 +973,13 @@ margin: 0 auto;
 #resume-link {
    margin-right: -12px;
 }
-
-
-
-
-
+#intro-tag {
+  font-size: 24px;
+  line-height: 36px;
+}
+#intro-tag-container {
+  width: 100%;
+}
 
 }
 @media only screen and (max-width: 800px) {
@@ -897,6 +1003,7 @@ margin: 0 auto;
 .focus-area-d {
   display: none;
 }
+
 }
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
   .nav_container-desktop {

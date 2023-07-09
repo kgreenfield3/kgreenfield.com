@@ -1,8 +1,25 @@
+.caption {
+  font-size: 12px;
+  text-align: center;
+  margin: -40px auto;
+}
+.caption a {
+  font-size: 12px;
+}
+
+
 hr {
   background-color: #f9dede;
   width: 75%;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+.falc-ad-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 /* EXTRA */
@@ -678,7 +695,9 @@ border-radius: 7.5px;
   padding:0 0.55em;
 
 }
-
+.falc-ad-container-mobile {
+  display: none;
+}
 /*ADS*/
 .gifs {
   margin: 24px;
@@ -705,11 +724,21 @@ border-radius: 7.5px;
   cursor: pointer;
   color: #D82525;
 }
+.falc-ad-container {
+  display: flex;
+}
 
 
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 1028px) {
+  .falc-ad-container-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .falc-ad-container {
+    display: none;
+  }
   .details, .education_details, .case_intro {
     display: flex;
     flex-direction: column;

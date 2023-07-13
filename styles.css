@@ -6,6 +6,16 @@
 .caption a {
   font-size: 12px;
 }
+#design-hr {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+#design-hr-nc {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
 
 
 hr {
@@ -948,6 +958,19 @@ margin: 0 auto;
 }
 .focus-area-d {
   display: none;
+}
+.caption {
+  margin: -20px auto;
+}
+#design-hr {
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+#design-hr-nc {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 }

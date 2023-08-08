@@ -17,6 +17,14 @@
   margin-bottom: 48px;
 }
 
+.small-img-container {
+  width: 100%;
+      margin: 0 auto;
+      text-align: center;
+}
+#small-img {
+  width: auto;
+}
 
 hr {
   background-color: #f9dede;
@@ -971,6 +979,9 @@ margin: 0 auto;
   width: 100%;
   margin-top: 24px;
   margin-bottom: 48px;
+}
+#small-img {
+  width: 100%;
 }
 
 }
